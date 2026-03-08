@@ -1,13 +1,13 @@
 import { Image, StyleSheet, useWindowDimensions, View } from 'react-native';
 import React from 'react';
-import { isProductFinishing, Product } from '../data';
-import { AppTextStyle, Typography } from './Typography';
-import { COLORS } from '../theme/colors';
-import { Spacer } from './Spacer';
-import { formatNumber } from '../util/formatters';
+import { isProductFinishing, Product } from '../../data';
+import { AppTextStyle, Typography } from '../shared/Typography';
+import { COLORS } from '../../theme/colors';
+import { Spacer } from '../shared/Spacer';
+import { formatNumber } from '../../util/formatters';
 import { Button } from './Button';
-import { Icons } from '../theme/icons';
-import { CONSTANTS } from '../constants';
+import { Icons } from '../../theme/icons';
+import { CONSTANTS } from '../../constants';
 
 type Props = {
   product: Product;

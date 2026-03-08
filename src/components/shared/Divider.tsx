@@ -1,5 +1,6 @@
 import { StyleSheet, View } from 'react-native';
 import React from 'react';
+import { COLORS } from '../../theme/colors';
 
 type Props = {
   margin?: number;
@@ -12,6 +13,6 @@ export const Divider = ({ margin = 12 }: Props) => {
 const styles = StyleSheet.create({
   divider: {
     height: 1,
-    backgroundColor: 'grey',
+    backgroundColor: COLORS.grey100,
   },
 });

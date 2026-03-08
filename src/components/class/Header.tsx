@@ -1,9 +1,9 @@
 import { StyleSheet, View } from 'react-native';
 import React from 'react';
-import { AppTextStyle, Typography } from './Typography';
-import { Icons } from '../theme/icons';
-import { COLORS } from '../theme/colors';
-import { CONSTANTS } from '../constants';
+import { AppTextStyle, Typography } from '../shared/Typography';
+import { Icons } from '../../theme/icons';
+import { COLORS } from '../../theme/colors';
+import { CONSTANTS } from '../../constants';
 
 export const Header = () => {
   return (

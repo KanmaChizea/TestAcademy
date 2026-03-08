@@ -4,8 +4,8 @@ import {
   TouchableOpacityProps,
 } from 'react-native';
 import React from 'react';
-import { AppTextStyle, Typography } from './Typography';
-import { COLORS } from '../theme/colors';
+import { AppTextStyle, Typography } from '../shared/Typography';
+import { COLORS } from '../../theme/colors';
 
 type Props = TouchableOpacityProps & {
   icon: React.ReactElement;

@@ -2031,6 +2031,11 @@
   resolved "https://registry.yarnpkg.com/@vscode/sudo-prompt/-/sudo-prompt-9.3.2.tgz#692ba38df40bd3502ccc4e9f099fbbaedbd5f04e"
   integrity sha512-gcXoCN00METUNFeQOFJ+C9xUI0DKB+0EGMVg7wbVYRHBw2Eq3fKisDZOkRdOz3kqXRKOENMfShPOmypw1/8nOw==
 
+"@zoontek/react-native-navigation-bar@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@zoontek/react-native-navigation-bar/-/react-native-navigation-bar-1.1.0.tgz#e902737eb68a9df7d18fab2795bcab868a933f7d"
+  integrity sha512-CUIyPiJb00M3xN1F7j1VDMm1+2HiKWxPWnqGgYmhrroLofcsybICI3dR6/64w9cXH7FRxoglOp3z9AResUZ+xQ==
+
 abort-controller@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/abort-controller/-/abort-controller-3.0.0.tgz#eaf54d53b62bae4138e809ca225c8439a6efb392"
@@ -5582,6 +5587,16 @@ react-is@^19.2.3:
   version "19.2.4"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-19.2.4.tgz#a080758243c572ccd4a63386537654298c99d135"
   integrity sha512-W+EWGn2v0ApPKgKKCy/7s7WHXkboGcsrXE+2joLyVxkbyVQfO3MUEaUQDHoSmb8TFFrSKYa9mw64WZHNHSDzYA==
+
+react-native-edge-to-edge@^1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/react-native-edge-to-edge/-/react-native-edge-to-edge-1.8.1.tgz#a1044ddbf4007a029980239e16c6a066e60756d2"
+  integrity sha512-bhvsKqeX9PGkY9wBUk9vni/tJNJdKtLPbs/j3e/3CdV4JmUWfTXYYoL+4Hc8Wmej+5eJxkc8KOFa454ruFWBCA==
+
+react-native-linear-gradient@^2.8.3:
+  version "2.8.3"
+  resolved "https://registry.yarnpkg.com/react-native-linear-gradient/-/react-native-linear-gradient-2.8.3.tgz#9a116649f86d74747304ee13db325e20b21e564f"
+  integrity sha512-KflAXZcEg54PXkLyflaSZQ3PJp4uC4whM7nT/Uot9m0e/qxFV3p6uor1983D1YOBJbJN7rrWdqIjq0T42jOJyA==
 
 react-native-safe-area-context@^5.5.2:
   version "5.7.0"

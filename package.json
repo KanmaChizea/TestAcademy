@@ -10,8 +10,11 @@
     "test": "jest"
   },
   "dependencies": {
+    "@zoontek/react-native-navigation-bar": "^1.1.0",
     "react": "19.2.3",
     "react-native": "0.84.1",
+    "react-native-edge-to-edge": "^1.8.1",
+    "react-native-linear-gradient": "^2.8.3",
     "react-native-safe-area-context": "^5.5.2",
     "react-native-svg": "^15.15.3"
   },
