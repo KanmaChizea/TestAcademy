@@ -1,10 +1,10 @@
 import { StyleSheet, TouchableOpacity, View } from 'react-native';
 import React from 'react';
-import { mockAccounts } from '../../data';
-import { formatNumber, withOpacity } from '../../util/formatters';
-import { AppTextStyle, Typography } from '../shared/Typography';
-import { Icons } from '../../theme/icons';
-import { COLORS } from '../../theme/colors';
+import { mockAccounts } from '../../../data';
+import { formatNumber, withOpacity } from '../../../util/formatters';
+import { AppTextStyle, Typography } from '../../shared/Typography';
+import { Icons } from '../../../theme/icons';
+import { COLORS } from '../../../theme/colors';
 
 export const TotalBalanceCard = () => {
   const totalBalance = mockAccounts.reduce(

@@ -1,11 +1,15 @@
 import { FlatList, StyleSheet, View } from 'react-native';
 import React from 'react';
-import { AppTextStyle, Typography } from '../shared/Typography';
-import { mockTransactions } from '../../data';
-import { COLORS } from '../../theme/colors';
-import { formatDate, formatNumber, withOpacity } from '../../util/formatters';
-import { Icons } from '../../theme/icons';
-import { Divider } from '../shared/Divider';
+import { AppTextStyle, Typography } from '../../shared/Typography';
+import { mockTransactions } from '../../../data';
+import { COLORS } from '../../../theme/colors';
+import {
+  formatDate,
+  formatNumber,
+  withOpacity,
+} from '../../../util/formatters';
+import { Icons } from '../../../theme/icons';
+import { Divider } from '../../shared/Divider';
 
 export const RecentTransactions = () => {
   const statusConfig = {

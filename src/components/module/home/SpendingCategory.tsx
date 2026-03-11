@@ -1,10 +1,10 @@
 import { StyleSheet, useWindowDimensions, View } from 'react-native';
 import React from 'react';
-import { AppTextStyle, Typography } from '../shared/Typography';
-import { COLORS } from '../../theme/colors';
-import { mockSpendingByCategory } from '../../data';
-import { formatNumber, withOpacity } from '../../util/formatters';
-import { CONSTANTS } from '../../constants';
+import { AppTextStyle, Typography } from '../../shared/Typography';
+import { COLORS } from '../../../theme/colors';
+import { mockSpendingByCategory } from '../../../data';
+import { formatNumber, withOpacity } from '../../../util/formatters';
+import { CONSTANTS } from '../../../constants';
 
 export const SpendingCategory = () => {
   const { width: screenWidth } = useWindowDimensions();

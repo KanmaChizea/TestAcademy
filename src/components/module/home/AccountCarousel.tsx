@@ -1,12 +1,12 @@
 import { FlatList, StyleSheet, useWindowDimensions, View } from 'react-native';
 import React, { useState } from 'react';
-import { AppTextStyle, Typography } from '../shared/Typography';
-import { CONSTANTS } from '../../constants';
-import { mockAccounts } from '../../data';
-import { COLORS } from '../../theme/colors';
-import { Spacer } from '../shared/Spacer';
+import { AppTextStyle, Typography } from '../../shared/Typography';
+import { CONSTANTS } from '../../../constants';
+import { mockAccounts } from '../../../data';
+import { COLORS } from '../../../theme/colors';
+import { Spacer } from '../../shared/Spacer';
 import LinearGradient from 'react-native-linear-gradient';
-import { formatNumber, withOpacity } from '../../util/formatters';
+import { formatNumber, withOpacity } from '../../../util/formatters';
 import { CarouselIndicator } from './CarouselIndicator';
 
 export const AccountCarousel = () => {

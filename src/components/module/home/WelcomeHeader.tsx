@@ -1,12 +1,12 @@
 import { StyleSheet, View } from 'react-native';
 import React from 'react';
-import { mockUser } from '../../data';
+import { mockUser } from '../../../data';
 import { IconButton } from './IconButton';
-import { Icons } from '../../theme/icons';
-import { COLORS } from '../../theme/colors';
-import { Spacer } from '../shared/Spacer';
-import { AppTextStyle, Typography } from '../shared/Typography';
-import { withOpacity } from '../../util/formatters';
+import { Icons } from '../../../theme/icons';
+import { COLORS } from '../../../theme/colors';
+import { Spacer } from '../../shared/Spacer';
+import { AppTextStyle, Typography } from '../../shared/Typography';
+import { withOpacity } from '../../../util/formatters';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 export const WelcomeHeader = () => {

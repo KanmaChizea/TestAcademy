@@ -2,7 +2,7 @@ import { ScrollView, StyleSheet, View } from 'react-native';
 import React from 'react';
 import { WelcomeHeader } from './WelcomeHeader';
 import { TotalBalanceCard } from './TotalBalanceCard';
-import { COLORS } from '../../theme/colors';
+import { COLORS } from '../../../theme/colors';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { QuickActions } from './QuickActions';
 import { AccountCarousel } from './AccountCarousel';

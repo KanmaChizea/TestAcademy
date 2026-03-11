@@ -1,10 +1,10 @@
 import { FlatList, StyleSheet, useWindowDimensions, View } from 'react-native';
 import React from 'react';
-import { Icons } from '../../theme/icons';
-import { AppTextStyle, Typography } from '../shared/Typography';
-import { COLORS } from '../../theme/colors';
-import { CONSTANTS } from '../../constants';
-import { withOpacity } from '../../util/formatters';
+import { Icons } from '../../../theme/icons';
+import { AppTextStyle, Typography } from '../../shared/Typography';
+import { COLORS } from '../../../theme/colors';
+import { CONSTANTS } from '../../../constants';
+import { withOpacity } from '../../../util/formatters';
 
 const SPACING = 20;
 const NUM_COLUMNS = 4;
@@ -14,13 +14,13 @@ export const QuickActions = () => {
     (screenWidth - CONSTANTS.screenPadding * 2 - SPACING * (NUM_COLUMNS - 1)) /
     NUM_COLUMNS;
   const items = [
-    { label: 'Transfer', icon: <Icons.Send /> },
-    { label: 'Airtime', icon: <Icons.Device /> },
-    { label: 'Data', icon: <Icons.Wifi /> },
-    { label: 'Bills', icon: <Icons.CreditCard /> },
-    { label: 'Loans', icon: <Icons.Building /> },
-    { label: 'Cards', icon: <Icons.CreditCard /> },
-    { label: 'QR Pay', icon: <Icons.QrCode /> },
+    { label: 'Transfer', icon: <Icons.Send />, path: 'Transfer' },
+    { label: 'Airtime', icon: <Icons.Device />, path: 'Airtime' },
+    { label: 'Data', icon: <Icons.Wifi />, path: 'Data' },
+    { label: 'Bills', icon: <Icons.CreditCard />, path: 'Bills' },
+    { label: 'Loans', icon: <Icons.Building />, path: 'Loans' },
+    { label: 'Cards', icon: <Icons.CreditCard />, path: 'Cards' },
+    { label: 'QR Pay', icon: <Icons.QrCode />, path: 'QR Pay' },
   ];
   return (
     <FlatList
